@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "sort": "1",
+    "link": "https://google.com",
+    "imgLink": "/images/banner/1.jpeg"
+  },
+  {
+    "id": "2",
+    "sort": "2",
+    "link": "https://google.com",
+    "imgLink": "/images/banner/2.jpeg"
+  }
+]
