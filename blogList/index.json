@@ -28,5 +28,15 @@
     "title": "ecap: Multichain & Pool Reward Adjustm",
     "desc": "Starting Season 34, on September 13th, 2022, USDC rewards will no longer be included in the Trading Leagues...",
     "createTime": "Sep 22, 2022"
+  },
+  {
+    "id": "4",
+    "sort": "4",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "https://google.com",
+    "tags": ["Layer 2", "Plublic Chain", "Plublic Chain"],
+    "title": "ecap: Multichain & Pool Reward Adjustm",
+    "desc": "Starting Season 34, on September 13th, 2022, USDC rewards will no longer be included in the Trading Leagues...",
+    "createTime": "Sep 22, 2022"
   }
 ]
