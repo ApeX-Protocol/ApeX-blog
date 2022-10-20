@@ -4,76 +4,131 @@
     "sort": "1",
     "imgLink": "/images/list/3.jpeg",
     "link": "",
-    "tags": ["Layer 2", "Plublic Chain"],
-    "title": "ecap: Multichain & Pool Reward Adjustment AMA on Twitter Space (Septe...",
-    "desc": "Starting Season 34, on September 13th, 2022, USDC rewards will no longer be included in..",
-    "createTime": "Sep 22, 2022",
-    "classify": [
-      "ALL",
-      "New Features",
-      "New Listings",
-      "New Partnerships",
-      "Events & Campaigns",
-      "Research",
-      "Education",
-      "Market Analysis"
-    ]
+    "tags": ["DEX", "Order Book"],
+    "title": "Take-Profit & Stop-Loss Now Available on ApeX Pro",
+    "desc": "ApeX Pro is thrilled to announce new features Take-Profit and Stop-Loss — so you can continue maximizing your permissionless perpetual contract trades in the safest way possible.",
+    "createTime": "Oct. 12, 2022",
+    "classify": ["New Features"]
   },
   {
     "id": "2",
     "sort": "2",
     "imgLink": "/images/list/2.jpeg",
     "link": "",
-    "tags": ["Layer 2"],
-    "title": "ecap: Multichain & Pool Reward Adjustm",
-    "desc": "Starting Season 34, on September 13th, 2022, USDC rewards will no longer be included in the Trading Leagues...",
-    "createTime": "Sep 22, 2022",
-    "classify": [
-      "ALL",
-      "New Features",
-      "New Listings",
-      "New Partnerships",
-      "Events & Campaigns",
-      "Research",
-      "Market Analysis"
-    ]
+    "tags": ["Rewards"],
+    "title": "Bounty Bowl: Hunt & Win Up to 50 USDC Per Participant!",
+    "desc": "To celebrate the upcoming launch of ApeX Pro on mainnet, here’s your chance to hop on board the ApeX Pro train with our exclusive early bird trading bonus giveaway on ApeX Pro Beta.",
+    "createTime": "Oct. 12, 2022",
+    "classify": ["Events & Campaigns"]
   },
   {
     "id": "3",
     "sort": "3",
     "imgLink": "/images/list/1.jpeg",
-    "link": "https://google.com",
-    "tags": ["Layer 2"],
-    "title": "ecap: Multichain & Pool Reward Adjustm",
-    "desc": "Starting Season 34, on September 13th, 2022, USDC rewards will no longer be included in the Trading Leagues...",
-    "createTime": "Sep 22, 2022",
-    "classify": [
-      "ALL",
-      "New Features",
-      "New Partnerships",
-      "Events & Campaigns",
-      "Research",
-      "Education",
-      "Market Analysis"
-    ]
+    "link": "",
+    "tags": ["DEX", "L1/L2"],
+    "title": "ApeX DEX Talks With Dmitry Lapidus: Bullish on Human Capital in Crypto",
+    "desc": "We sat down for a digital huddle with Dmitry Lapidus, Junior Partner at crypto investment fund Dragonfly Capital, for a one-hour discussion live on all things decentralized.",
+    "createTime": "Sept. 14, 2022",
+    "classify": ["Learn"]
   },
   {
     "id": "4",
     "sort": "4",
     "imgLink": "/images/list/2.jpeg",
-    "link": "https://google.com",
-    "tags": ["Layer 2", "Plublic Chain", "Plublic Chain"],
-    "title": "ecap: Multichain & Pool Reward Adjustm",
-    "desc": "Starting Season 34, on September 13th, 2022, USDC rewards will no longer be included in the Trading Leagues...",
-    "createTime": "Sep 22, 2022",
-    "classify": [
-      "ALL",
-      "New Features",
-      "New Listings",
-      "New Partnerships",
-      "Research",
-      "Education",
-      "Market Analysis"
-    ]
+    "link": "",
+    "tags": ["Trade-to-Earn", "Rewards"],
+    "title": "The $APEX-$BANA Connection",
+    "desc": "As you dive deep into ApeX Pro offerings, here’s the lowdown on the two tokens underpinning not just ApeX Pro, but also the wider ApeX Protocol ecosystem — $APEX and $BANA.",
+    "createTime": "Sept. 13, 2022",
+    "classify": ["Learn"]
+  },
+  {
+    "id": "5",
+    "sort": "5",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["Rewards"],
+    "title": "1,500,000 esAPEX With ApeX Pro’s Retroactive Airdrop",
+    "desc": "Our very first Retroactive Airdrop, where we’ll be sharing a pool of 1,500,000 esAPEX in rewards with professional traders and KOLs in the community!",
+    "createTime": "Aug. 13, 2022",
+    "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "6",
+    "sort": "6",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["Rewards"],
+    "title": "25,000 USDC in Rewards With ApeX Pro’s Feedback Campaign",
+    "desc": "We invite all community members to join our user experience journey and participate in our Beta Feedback Campaign for the chance of winning rewards in USDC.",
+    "createTime": "Aug. 13, 2022",
+    "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "7",
+    "sort": "7",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["DEX", "Order Book"],
+    "title": "ApeX Pro: Order Book Launches Protocol to a New Web 3.0 Social Trading Era",
+    "desc": "Introducing ApeX Pro, where you can get limitless access to cross-margined perpetual contracts under a new social trading framework.",
+    "createTime": "July 27, 2022",
+    "classify": ["New Features"]
+  },
+  {
+    "id": "8",
+    "sort": "8",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["Rewards"],
+    "title": "ApeX Staking Program: Start Earning Now!",
+    "desc": "ICYMI, the long-expected ApeX Staking Program is now live!",
+    "createTime": "July 1, 2022",
+    "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "9",
+    "sort": "9",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["DEX", "Order Book"],
+    "title": "ApeX Pro Litepaper",
+    "desc": "Leveraging social trading allows ApeX Pro to offer all traders accelerated trading performance and deep liquidity, while preserving privacy and security in the decentralized space — based on the core belief that trades made together in the Web 3.0 world are better.",
+    "createTime": "Aug. 17, 2022",
+    "classify": ["New Features"]
+  },
+  {
+    "id": "10",
+    "sort": "10",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["Rewards"],
+    "title": "ApeX Brawl 2.0: Trade to Mine (5,000 $USDT Up For Grabs)",
+    "desc": "Predatooors, we are bringing back the one and only ApeX’s very own trading contest — ApeX Brawl 2.0!",
+    "createTime": "June 27, 2022",
+    "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "11",
+    "sort": "11",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["Rewards"],
+    "title": "July Jolly Giveaway (15,000 $APEX Up for Grabs)",
+    "desc": "We are happy to announce that ApeX will be hosting a very jolly giveaway for our community.",
+    "createTime": "June 27, 2022",
+    "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "10",
+    "sort": "10",
+    "imgLink": "/images/list/2.jpeg",
+    "link": "",
+    "tags": ["Rewards"],
+    "title": "The Predator Project — Community Contributors & Community Builders 2.0",
+    "desc": "Apex’s community consists of many members with extensive skills. By contributing to the Apex community, and being an active community contributor, you could earn from a prize pool of $6,000 USDT.",
+    "createTime": "June 14, 2022",
+    "classify": ["Events & Campaigns"]
   }
 ]

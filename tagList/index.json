@@ -1,8 +1,12 @@
 [
-  "Layer 2",
-  "Plublic Chain",
-  "Plublic Chain",
-  "Plublic Chain",
-  "Plublic Chain",
-  "Plublic Chain"
+  "Bitcoin",
+  "Ethereum",
+  "StarkWare",
+  "L1/L2",
+  "AMM",
+  "Order Book",
+  "DEX",
+  "CEX",
+  "Trade-to-Earn",
+  "Rewards"
 ]
