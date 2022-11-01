@@ -216,7 +216,7 @@
     "tags": ["DEX", "eAMM", "ApeX"],
     "title": "Introducing ApeX Protocol",
     "desc": "ApeX is a decentralized and non-custodial derivatives protocol that facilitates the creation of perpetual swap markets for any token pair. The protocol operates through a series of immutable and persistent smart contracts on the Ethereum blockchain, where users are free to trade directly without intermediaries. ",
-    "createTime": "2022-12-14T00:00:00.000Z",
+    "createTime": "2021-12-14T00:00:00.000Z",
     "classify": ["New Features"]
   },
   {
