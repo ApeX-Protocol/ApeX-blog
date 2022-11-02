@@ -339,5 +339,16 @@
     "desc": "Service for BNB Chain deposits and withdrawals resumes!",
     "createTime": "2022-10-07T00:00:00.000Z",
     "classify": ["Platform Updates"]
+  },
+  {
+    "id": "32",
+    "sort": "32",
+    "imgLink": "/images/list/32.png",
+    "link": "",
+    "tags": ["Order Book", "ApeX"],
+    "title": "Increased Risk Limits, Tiered Margin Rates & New Custom Preferences",
+    "desc": "Increased Risk Limits, Tiered Margin Rates & New Custom Preferences",
+    "createTime": "2022-11-02T00:00:00.000Z",
+    "classify": ["Platform Updates"]
   }
 ]
