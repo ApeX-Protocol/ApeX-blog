@@ -350,5 +350,27 @@
     "desc": "Increased Risk Limits, Tiered Margin Rates & New Custom Preferences",
     "createTime": "2022-11-02T00:00:00.000Z",
     "classify": ["Platform Updates"]
+  },
+  {
+    "id": "33",
+    "sort": "33",
+    "imgLink": "/images/list/33.png",
+    "link": "",
+    "tags": ["ApeX"],
+    "title": "New on ApeX Pro: XRP-USDC Contracts!",
+    "desc": "ApeX Pro is happy to announce that we've added a new USDC perpetual contract — XRP-USDC!",
+    "createTime": "2022-11-03T00:00:00.000Z",
+    "classify": ["New Listings"]
+  },
+  {
+    "id": "34",
+    "sort": "34",
+    "imgLink": "/images/list/34.png",
+    "link": "",
+    "tags": ["ApeX"],
+    "title": "New on ApeX Pro: DOGE-USDC Contracts!",
+    "desc": "DOGE, every trader's best friend — try out DOGE-USDC perpetual contracts today.",
+    "createTime": "2022-11-07T00:00:00.000Z",
+    "classify": ["New Listings"]
   }
 ]
