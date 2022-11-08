@@ -372,5 +372,16 @@
     "desc": "DOGE, every trader's best friend — try out DOGE-USDC perpetual contracts today.",
     "createTime": "2022-11-07T00:00:00.000Z",
     "classify": ["New Listings"]
+  },
+  {
+    "id": "36",
+    "sort": "36",
+    "imgLink": "/images/list/34.png",
+    "link": "",
+    "tags": ["CEX", "DEX"],
+    "title": "6 Reasons Why the Future of Finance Lies With a Trustless DEX",
+    "desc": "DEX traders are guaranteed full ownership over their funds at all times — your assets and funds protected by decentralized, permissionless code. ",
+    "createTime": "2022-11-08T00:00:00.000Z",
+    "classify": ["Learn"]
   }
 ]
