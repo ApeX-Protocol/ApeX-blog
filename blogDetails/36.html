@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <title>6 Reasons Why the Future of Finance Lies With a Trustless DEX</title>
+    <link
+      href="https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      html {
+        overflow-x: initial !important;
+      }
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #333333;
+        --select-text-bg-color: #b5d6fc;
+        --select-text-font-color: auto;
+        --monospace: 'Lucida Console', Consolas, 'Courier', monospace;
+        --title-bar-height: 20px;
+      }
+      .mac-os-11 {
+        --title-bar-height: 28px;
+      }
+      html {
+        font-size: 14px;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      body {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        inset: 0px;
+        font-size: 1rem;
+        line-height: 1.42857143;
+        overflow-x: hidden;
+        background-image: inherit;
+        background-size: inherit;
+        background-attachment: inherit;
+        background-origin: inherit;
+        background-clip: inherit;
+        background-color: inherit;
+        tab-size: 4;
+        background-position: inherit;
+        background-repeat: inherit;
+      }
+      iframe {
+        margin: auto;
+      }
+      a.url {
+        word-break: break-all;
+      }
+      a:active,
+      a:hover {
+        outline: 0px;
+      }
+      .in-text-selection,
+      ::selection {
+        text-shadow: none;
+        background: var(--select-text-bg-color);
+        color: var(--select-text-font-color);
+      }
+      #write {
+        margin: 0px auto;
+        height: auto;
+        width: inherit;
+        word-break: normal;
+        word-wrap: break-word;
+        position: relative;
+        white-space: normal;
+        overflow-x: visible;
+        padding-top: 36px;
+      }
+      #write.first-line-indent p {
+        text-indent: 2em;
+      }
+      #write.first-line-indent li p,
+      #write.first-line-indent p * {
+        text-indent: 0px;
+      }
+      #write.first-line-indent li {
+        margin-left: 2em;
+      }
+      .for-image #write {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+      body.typora-export {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .typora-export .footnote-line,
+      .typora-export li {
+        white-space: pre-wrap;
+      }
+      .typora-export .task-list-item input {
+        pointer-events: none;
+      }
+      p {
+        white-space: inherit !important;
+      }
+      @media screen and (max-width: 500px) {
+        body.typora-export {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+        #write {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .CodeMirror-sizer {
+          margin-left: 0px !important;
+        }
+        .CodeMirror-gutters {
+          display: none !important;
+        }
+      }
+      #write li > figure:last-child {
+        margin-bottom: 0.5rem;
+      }
+      #write ol,
+      #write ul {
+        position: relative;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+        image-orientation: from-image;
+      }
+      button,
+      input,
+      select,
+      textarea {
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        font-style: inherit;
+        font-variant-caps: inherit;
+        font-weight: inherit;
+        font-stretch: inherit;
+        line-height: inherit;
+      }
+      input[type='checkbox'],
+      input[type='radio'] {
+        line-height: normal;
+        padding: 0px;
+      }
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      #write h1,
+      #write h2,
+      #write h3,
+      #write h4,
+      #write h5,
+      #write h6,
+      #write p,
+      #write pre {
+        width: inherit;
+      }
+      #write h1,
+      #write h2,
+      #write h3,
+      #write h4,
+      #write h5,
+      #write h6,
+      #write p {
+        position: relative;
+      }
+      p {
+        line-height: inherit;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        break-after: avoid-page;
+        break-inside: avoid;
+        orphans: 4;
+      }
+      p {
+        orphans: 4;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+      }
+      h3 {
+        font-size: 1.6rem;
+      }
+      h4 {
+        font-size: 1.4rem;
+      }
+      h5 {
+        font-size: 1.2rem;
+      }
+      h6 {
+        font-size: 1rem;
+      }
+      .md-math-block,
+      .md-rawblock,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .hidden {
+        display: none;
+      }
+      .md-blockmeta {
+        color: rgb(204, 204, 204);
+        font-weight: 700;
+        font-style: italic;
+      }
+      a {
+        cursor: pointer;
+      }
+      sup.md-footnote {
+        padding: 2px 4px;
+        background-color: rgba(238, 238, 238, 0.7);
+        color: rgb(85, 85, 85);
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      sup.md-footnote a,
+      sup.md-footnote a:hover {
+        color: inherit;
+        text-transform: inherit;
+        text-decoration: inherit;
+      }
+      #write input[type='checkbox'] {
+        cursor: pointer;
+        width: inherit;
+        height: inherit;
+      }
+      figure {
+        overflow-x: auto;
+        margin: 1.2em 0px;
+        max-width: calc(100% + 16px);
+        padding: 0px;
+      }
+      figure > table {
+        margin: 0px;
+      }
+      tr {
+        break-inside: avoid;
+        break-after: auto;
+      }
+      thead {
+        display: table-header-group;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0px;
+        width: 100%;
+        overflow: auto;
+        break-inside: auto;
+        text-align: left;
+      }
+      table.md-table td {
+        min-width: 32px;
+      }
+      .CodeMirror-gutters {
+        border-right-width: 0px;
+        background-color: inherit;
+      }
+      .CodeMirror-linenumber {
+      }
+      .CodeMirror {
+        text-align: left;
+      }
+      .CodeMirror-placeholder {
+        opacity: 0.3;
+      }
+      .CodeMirror pre {
+        padding: 0px 4px;
+      }
+      .CodeMirror-lines {
+        padding: 0px;
+      }
+      div.hr:focus {
+        cursor: none;
+      }
+      #write pre {
+        white-space: pre-wrap;
+      }
+      #write.fences-no-line-wrapping pre {
+        white-space: pre;
+      }
+      #write pre.ty-contain-cm {
+        white-space: normal;
+      }
+      .CodeMirror-gutters {
+        margin-right: 4px;
+      }
+      .md-fences {
+        font-size: 0.9rem;
+        display: block;
+        break-inside: avoid;
+        text-align: left;
+        overflow: visible;
+        white-space: pre;
+        background-image: inherit;
+        background-size: inherit;
+        background-attachment: inherit;
+        background-origin: inherit;
+        background-clip: inherit;
+        background-color: inherit;
+        position: relative !important;
+        background-position: inherit;
+        background-repeat: inherit;
+      }
+      .md-diagram-panel {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 8px;
+        overflow-x: auto;
+      }
+      #write .md-fences.mock-cm {
+        white-space: pre-wrap;
+      }
+      .md-fences.md-fences-with-lineno {
+        padding-left: 0px;
+      }
+      #write.fences-no-line-wrapping .md-fences.mock-cm {
+        white-space: pre;
+        overflow-x: auto;
+      }
+      .md-fences.mock-cm.md-fences-with-lineno {
+        padding-left: 8px;
+      }
+      .CodeMirror-line,
+      twitterwidget {
+        break-inside: avoid;
+      }
+      .footnotes {
+        opacity: 0.8;
+        font-size: 0.9rem;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      .footnotes + .footnotes {
+        margin-top: 0px;
+      }
+      .md-reset {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        outline: 0px;
+        vertical-align: top;
+        text-decoration: none;
+        text-shadow: none;
+        float: none;
+        position: static;
+        width: auto;
+        height: auto;
+        white-space: nowrap;
+        cursor: inherit;
+        line-height: normal;
+        font-weight: 400;
+        text-align: left;
+        box-sizing: content-box;
+        direction: ltr;
+        background-position: 0px 0px;
+      }
+      li div {
+        padding-top: 0px;
+      }
+      blockquote {
+        margin: 1rem 0px;
+      }
+      li .mathjax-block,
+      li p {
+        margin: 0.5rem 0px;
+      }
+      li blockquote {
+        margin: 1rem 0px;
+      }
+      li {
+        margin: 0px;
+        position: relative;
+      }
+      blockquote > :last-child {
+        margin-bottom: 0px;
+      }
+      blockquote > :first-child,
+      li > :first-child {
+        margin-top: 0px;
+      }
+      .footnotes-area {
+        color: rgb(136, 136, 136);
+        margin-top: 0.714rem;
+        padding-bottom: 0.143rem;
+        white-space: normal;
+      }
+      #write .footnote-line {
+        white-space: pre-wrap;
+      }
+      @media print {
+        body,
+        html {
+          border: 1px solid transparent;
+          height: 99%;
+          break-after: avoid;
+          break-before: avoid;
+          font-variant-ligatures: no-common-ligatures;
+        }
+        #write {
+          margin-top: 0px;
+          padding-top: 0px;
+          border-color: transparent !important;
+        }
+        .typora-export * {
+          print-color-adjust: exact;
+        }
+        .typora-export #write {
+          break-after: avoid;
+        }
+        .typora-export #write::after {
+          height: 0px;
+        }
+        .is-mac table {
+          break-inside: avoid;
+        }
+      }
+      .footnote-line {
+        margin-top: 0.714em;
+        font-size: 0.7em;
+      }
+      a img,
+      img a {
+        cursor: pointer;
+      }
+      pre.md-meta-block {
+        font-size: 0.8rem;
+        min-height: 0.8rem;
+        white-space: pre-wrap;
+        background-color: rgb(204, 204, 204);
+        display: block;
+        overflow-x: hidden;
+      }
+      p > .md-image:only-child:not(.md-img-error) img,
+      p > img:only-child {
+        display: block;
+        margin: auto;
+      }
+      #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img {
+        left: -2em;
+        position: relative;
+      }
+      p > .md-image:only-child {
+        display: inline-block;
+        width: 100%;
+      }
+      #write .MathJax_Display {
+        margin: 0.8em 0px 0px;
+      }
+      .md-math-block {
+        width: 100%;
+      }
+      .md-math-block:not(:empty)::after {
+        display: none;
+      }
+      .MathJax_ref {
+        fill: currentcolor;
+      }
+      [contenteditable='true']:active,
+      [contenteditable='true']:focus,
+      [contenteditable='false']:active,
+      [contenteditable='false']:focus {
+        outline: 0px;
+        box-shadow: none;
+      }
+      .md-task-list-item {
+        position: relative;
+        list-style-type: none;
+      }
+      .task-list-item.md-task-list-item {
+        padding-left: 0px;
+      }
+      .md-task-list-item > input {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin-left: -1.2em;
+        margin-top: calc(1em - 10px);
+        border: none;
+      }
+      .math {
+        font-size: 1rem;
+      }
+      .md-toc {
+        min-height: 3.58rem;
+        position: relative;
+        font-size: 0.9rem;
+        border-radius: 10px;
+      }
+      .md-toc-content {
+        position: relative;
+        margin-left: 0px;
+      }
+      .md-toc-content::after,
+      .md-toc::after {
+        display: none;
+      }
+      .md-toc-item {
+        display: block;
+        color: rgb(65, 131, 196);
+      }
+      .md-toc-item a {
+        text-decoration: none;
+      }
+      .md-toc-inner:hover {
+        text-decoration: underline;
+      }
+      .md-toc-inner {
+        display: inline-block;
+        cursor: pointer;
+      }
+      .md-toc-h1 .md-toc-inner {
+        margin-left: 0px;
+        font-weight: 700;
+      }
+      .md-toc-h2 .md-toc-inner {
+        margin-left: 2em;
+      }
+      .md-toc-h3 .md-toc-inner {
+        margin-left: 4em;
+      }
+      .md-toc-h4 .md-toc-inner {
+        margin-left: 6em;
+      }
+      .md-toc-h5 .md-toc-inner {
+        margin-left: 8em;
+      }
+      .md-toc-h6 .md-toc-inner {
+        margin-left: 10em;
+      }
+      @media screen and (max-width: 48em) {
+        .md-toc-h3 .md-toc-inner {
+          margin-left: 3.5em;
+        }
+        .md-toc-h4 .md-toc-inner {
+          margin-left: 5em;
+        }
+        .md-toc-h5 .md-toc-inner {
+          margin-left: 6.5em;
+        }
+        .md-toc-h6 .md-toc-inner {
+          margin-left: 8em;
+        }
+      }
+      a.md-toc-inner {
+        font-size: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+      .footnote-line a:not(.reversefootnote) {
+        color: inherit;
+      }
+      .md-attr {
+        display: none;
+      }
+      .md-fn-count::after {
+        content: '.';
+      }
+      code,
+      pre,
+      samp,
+      tt {
+        font-family: var(--monospace);
+      }
+      kbd {
+        margin: 0px 0.1em;
+        padding: 0.1em 0.6em;
+        font-size: 0.8em;
+        color: rgb(36, 39, 41);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(173, 179, 185);
+        border-radius: 3px;
+        box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px,
+          rgb(255, 255, 255) 0px 0px 0px 2px inset;
+        white-space: nowrap;
+        vertical-align: middle;
+      }
+      .md-comment {
+        color: rgb(162, 127, 3);
+        opacity: 0.8;
+        font-family: var(--monospace);
+      }
+      code {
+        text-align: left;
+      }
+      a.md-print-anchor {
+        white-space: pre !important;
+        border: none !important;
+        display: inline-block !important;
+        position: absolute !important;
+        width: 1px !important;
+        right: 0px !important;
+        outline: 0px !important;
+        text-shadow: initial !important;
+        background-position: 0px 0px !important;
+      }
+      .md-inline-math .MathJax_SVG .noError {
+        display: none !important;
+      }
+      .html-for-mac .inline-math-svg .MathJax_SVG {
+        vertical-align: 0.2px;
+      }
+      .md-math-block .MathJax_SVG_Display {
+        text-align: center;
+        margin: 0px;
+        position: relative;
+        text-indent: 0px;
+        max-width: none;
+        max-height: none;
+        min-height: 0px;
+        min-width: 100%;
+        width: auto;
+        overflow-y: hidden;
+        display: block !important;
+      }
+      .MathJax_SVG_Display,
+      .md-inline-math .MathJax_SVG_Display {
+        width: auto;
+        margin: inherit;
+        display: inline-block !important;
+      }
+      .MathJax_SVG .MJX-monospace {
+        font-family: var(--monospace);
+      }
+      .MathJax_SVG .MJX-sans-serif {
+        font-family: sans-serif;
+      }
+      .MathJax_SVG {
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        zoom: 90%;
+        text-indent: 0px;
+        text-align: left;
+        text-transform: none;
+        letter-spacing: normal;
+        word-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        float: none;
+        direction: ltr;
+        max-width: none;
+        max-height: none;
+        min-width: 0px;
+        min-height: 0px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+      }
+      .MathJax_SVG * {
+        transition: none 0s ease 0s;
+      }
+      .MathJax_SVG_Display svg {
+        vertical-align: middle !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+      }
+      .os-windows.monocolor-emoji .md-emoji {
+        font-family: 'Segoe UI Symbol', sans-serif;
+      }
+      .md-diagram-panel > svg {
+        max-width: 100%;
+      }
+      [lang='flow'] svg,
+      [lang='mermaid'] svg {
+        max-width: 100%;
+        height: auto;
+      }
+      [lang='mermaid'] .node text {
+        font-size: 1rem;
+      }
+      table tr th {
+        border-bottom-width: 0px;
+      }
+      video {
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
+      }
+      iframe {
+        max-width: 100%;
+        width: 100%;
+        border: none;
+      }
+      .highlight td,
+      .highlight tr {
+        border: 0px;
+      }
+      mark {
+        background-color: rgb(255, 255, 0);
+        color: rgb(0, 0, 0);
+      }
+      .md-html-inline .md-plain,
+      .md-html-inline strong,
+      mark .md-inline-math,
+      mark strong {
+        color: inherit;
+      }
+      mark .md-meta {
+        color: rgb(0, 0, 0);
+        opacity: 0.3 !important;
+      }
+      @media print {
+        .typora-export h1,
+        .typora-export h2,
+        .typora-export h3,
+        .typora-export h4,
+        .typora-export h5,
+        .typora-export h6 {
+          break-inside: avoid;
+        }
+      }
+      .md-diagram-panel .messageText {
+        stroke: none !important;
+      }
+      .md-diagram-panel .start-state {
+        fill: var(--node-fill);
+      }
+      .md-diagram-panel .edgeLabel rect {
+        opacity: 1 !important;
+      }
+      .md-require-zoom-fix foreignObject {
+        font-size: var(--mermaid-font-zoom);
+      }
+
+      :root {
+        --side-bar-bg-color: #fafafa;
+        --control-text-color: #777;
+      }
+
+      @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+      /* open-sans-regular - latin-ext_latin */
+      /* open-sans-italic - latin-ext_latin */
+      /* open-sans-700 - latin-ext_latin */
+      /* open-sans-700italic - latin-ext_latin */
+      html {
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body {
+        font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica,
+          Arial, 'Segoe UI Emoji', sans-serif;
+        color: rgb(51, 51, 51);
+        line-height: 1.6;
+      }
+
+      #write {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 30px;
+        padding-bottom: 100px;
+      }
+
+      @media only screen and (min-width: 1400px) {
+        #write {
+          max-width: 1024px;
+        }
+      }
+
+      @media only screen and (min-width: 1800px) {
+        #write {
+          max-width: 1200px;
+        }
+      }
+
+      #write > ul:first-child,
+      #write > ol:first-child {
+        margin-top: 30px;
+      }
+
+      a {
+        color: #4183c4;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        line-height: 1.4;
+        cursor: text;
+      }
+      h1:hover a.anchor,
+      h2:hover a.anchor,
+      h3:hover a.anchor,
+      h4:hover a.anchor,
+      h5:hover a.anchor,
+      h6:hover a.anchor {
+        text-decoration: none;
+      }
+      h1 tt,
+      h1 code {
+        font-size: inherit;
+      }
+      h2 tt,
+      h2 code {
+        font-size: inherit;
+      }
+      h3 tt,
+      h3 code {
+        font-size: inherit;
+      }
+      h4 tt,
+      h4 code {
+        font-size: inherit;
+      }
+      h5 tt,
+      h5 code {
+        font-size: inherit;
+      }
+      h6 tt,
+      h6 code {
+        font-size: inherit;
+      }
+      h1 {
+        font-size: 2.25em;
+        line-height: 1.2;
+        border-bottom: 1px solid #eee;
+      }
+      h2 {
+        font-size: 1.75em;
+        line-height: 1.225;
+        border-bottom: 1px solid #eee;
+      }
+
+      /*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+      h3 {
+        font-size: 1.5em;
+        line-height: 1.43;
+      }
+      h4 {
+        font-size: 1.25em;
+      }
+      h5 {
+        font-size: 1em;
+      }
+      h6 {
+        font-size: 1em;
+        color: #777;
+      }
+      p,
+      blockquote,
+      ul,
+      ol,
+      dl,
+      table {
+        margin: 0.8em 0;
+      }
+      li > ol,
+      li > ul {
+        margin: 0 0;
+      }
+      hr {
+        height: 2px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #e7e7e7;
+        border: 0 none;
+        overflow: hidden;
+        box-sizing: content-box;
+      }
+
+      li p.first {
+        display: inline-block;
+      }
+      ul,
+      ol {
+        padding-left: 30px;
+      }
+      ul:first-child,
+      ol:first-child {
+        margin-top: 0;
+      }
+      ul:last-child,
+      ol:last-child {
+        margin-bottom: 0;
+      }
+      blockquote {
+        border-left: 4px solid #dfe2e5;
+        padding: 0 15px;
+        color: #777777;
+      }
+      blockquote blockquote {
+        padding-right: 0;
+      }
+      table {
+        padding: 0;
+        word-break: initial;
+      }
+      table tr {
+        border: 1px solid #dfe2e5;
+        margin: 0;
+        padding: 0;
+      }
+      table tr:nth-child(2n),
+      thead {
+        background-color: #f8f8f8;
+      }
+      table th {
+        font-weight: bold;
+        border: 1px solid #dfe2e5;
+        border-bottom: 0;
+        margin: 0;
+        padding: 6px 13px;
+      }
+      table td {
+        border: 1px solid #dfe2e5;
+        margin: 0;
+        padding: 6px 13px;
+      }
+      table th:first-child,
+      table td:first-child {
+        margin-top: 0;
+      }
+      table th:last-child,
+      table td:last-child {
+        margin-bottom: 0;
+      }
+
+      .CodeMirror-lines {
+        padding-left: 4px;
+      }
+
+      .code-tooltip {
+        box-shadow: 0 1px 1px 0 rgba(0, 28, 36, 0.3);
+        border-top: 1px solid #eef2f2;
+      }
+
+      .md-fences,
+      code,
+      tt {
+        border: 1px solid #e7eaed;
+        background-color: #f8f8f8;
+        border-radius: 3px;
+        padding: 0;
+        padding: 2px 4px 0px 4px;
+        font-size: 0.9em;
+      }
+
+      code {
+        background-color: #f3f4f4;
+        padding: 0 2px 0 2px;
+      }
+
+      .md-fences {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+      }
+
+      .md-task-list-item > input {
+        margin-left: -1.3em;
+      }
+
+      @media print {
+        html {
+          font-size: 13px;
+        }
+        pre {
+          page-break-inside: avoid;
+          word-wrap: break-word;
+        }
+      }
+
+      .md-fences {
+        background-color: #f8f8f8;
+      }
+      #write pre.md-meta-block {
+        padding: 1rem;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: #f7f7f7;
+        border: 0;
+        border-radius: 3px;
+        color: #777777;
+        margin-top: 0 !important;
+      }
+
+      .mathjax-block > .code-tooltip {
+        bottom: 0.375rem;
+      }
+
+      .md-mathjax-midline {
+        background: #fafafa;
+      }
+
+      #write > h3.md-focus:before {
+        left: -1.5625rem;
+        top: 0.375rem;
+      }
+      #write > h4.md-focus:before {
+        left: -1.5625rem;
+        top: 0.285714286rem;
+      }
+      #write > h5.md-focus:before {
+        left: -1.5625rem;
+        top: 0.285714286rem;
+      }
+      #write > h6.md-focus:before {
+        left: -1.5625rem;
+        top: 0.285714286rem;
+      }
+      .md-image > .md-meta {
+        /*border: 1px solid #ddd;*/
+        border-radius: 3px;
+        padding: 2px 0px 0px 4px;
+        font-size: 0.9em;
+        color: inherit;
+      }
+
+      .md-tag {
+        color: #a7a7a7;
+        opacity: 1;
+      }
+
+      .md-toc {
+        margin-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .sidebar-tabs {
+        border-bottom: none;
+      }
+
+      #typora-quick-open {
+        border: 1px solid #ddd;
+        background-color: #f8f8f8;
+      }
+
+      #typora-quick-open-item {
+        background-color: #fafafa;
+        border-color: #fefefe #e5e5e5 #e5e5e5 #eee;
+        border-style: solid;
+        border-width: 1px;
+      }
+
+      /** focus mode */
+      .on-focus-mode blockquote {
+        border-left-color: rgba(85, 85, 85, 0.12);
+      }
+
+      header,
+      .context-menu,
+      .megamenu-content,
+      footer {
+        font-family: 'Segoe UI', 'Arial', sans-serif;
+      }
+
+      .file-node-content:hover .file-node-icon,
+      .file-node-content:hover .file-node-open-state {
+        visibility: visible;
+      }
+
+      .mac-seamless-mode #typora-sidebar {
+        background-color: #fafafa;
+        background-color: var(--side-bar-bg-color);
+      }
+
+      .md-lang {
+        color: #b4654d;
+      }
+
+      /*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+      #md-notification .btn {
+        border: 0;
+      }
+
+      .dropdown-menu .divider {
+        border-color: #e5e5e5;
+        opacity: 0.4;
+      }
+
+      .ty-preferences .window-content {
+        background-color: #fafafa;
+      }
+
+      .ty-preferences .nav-group-item.active {
+        color: white;
+        background: #999;
+      }
+
+      .menu-item-container a.menu-style-btn {
+        background-color: #f5f8fa;
+        background-image: linear-gradient(
+          180deg,
+          hsla(0, 0%, 100%, 0.8),
+          hsla(0, 0%, 100%, 0)
+        );
+      }
+
+      :root {
+        --mermaid-font-zoom: 1em;
+      }
+    </style>
+  </head>
+  <body class="typora-export">
+    <div id="write" class="">
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/list/36.png"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >There&#39;s no question that a decentralizing world goes hand-in-hand
+          with a decentralized financial (DeFi) ecosystem. Amidst talks of
+          growing adoption and decentralization becoming the norm, the great
+          decentralized exchange (DEX) vs. centralized exchange (CEX) debate is
+          more prominent now than ever before. At a glance, here are the
+          commonly espoused pros and cons for both:</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/36-1.png"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The challenge with CeFi and CEXs boils down to a lack of trust and
+          security. This is continually reinforced time and again; this year is
+          clearly no different with funds, exchanges and even established
+          projects hitting the buffers and leaving behind affected, concerned
+          investors and traders fearing for their assets. News of increased risk
+          with CEXs coming into questions of insolvency and possible delays in
+          withdrawals, causing widespread panic amongst traders, as recent as
+          the day this article was published, is proof of that.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >It is no question that decentralization must be the way to go, but
+          unlike common arguments that already exist on the subject, the CEX-DEX
+          divide may not be as clean-cut as it seems.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >For decentralized crypto exchanges in particular, we are well on the
+          way to fully permissionless trading ecosystems meant to expand
+          accessibility, inclusively and financial freedom for all. With no
+          centralized operator privy to your personal information and trading
+          activities or </span
+        ><strong
+          ><span>having any control over your deposited funds</span></strong
+        ><span
+          >, individual traders will never need to worry about exposure to
+          unforeseen circumstances resulting in loss of access to funds, or
+          trading service disruptions.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >This doesn&#39;t mean that decentralized systems as they exist
+          currently are free from inefficiencies. As trading functions are
+          overseen by protocols and smart contracts, troubleshooting may be an
+          issue for traders. For example, if they make a mistake in transfers or
+          withdrawals, most transactions cannot be reversed or stopped.
+          Secondly, prices and the exchange of assets are typically automated,
+          so traders may not get full customizability with their orders. And
+          perhaps most importantly, smart contract flaws have been known to lead
+          to bugs and exploits. One wrong move and the consequences are often
+          painful, permanent and expensive.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Despite the shortcomings of existing DEXs, however, there is so much
+          more potential for improvement. We are way past having to persuade
+          others into taking on decentralization, and what we need now is
+          greater DeFi expansion and enhancements to truly meet individual
+          needs.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The battle between centralized finance (CeFi) and DeFi systems and
+          platforms undoubtedly continues. But what if you could have the best
+          qualities of a DEX and CEX without any trade-offs?</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <h3>
+        <a
+          name="apex-pro-the-cex-experience-decentralized"
+          class="md-header-anchor"
+        ></a
+        ><strong
+          ><span>ApeX Pro: The CEX Experience, Decentralized</span></strong
+        >
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Trading visibility, market depth and robust liquidity with strong
+          security provisions are key to every trading platform&#39;s success —
+          DEXs tend to fall short on the former, while CEXs lack guarantees that
+          make every trader&#39;s trading experience secure, transparent and
+          safe.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >There&#39;s only one way to bring all the above to traders at the
+          lowest costs, but also the highest speeds. And that&#39;s what ApeX
+          Pro is set out to do as a dynamic non-custodial derivatives DEX
+          powered by StarkWare&#39;s Layer 2 scalability engine StarkEx — all to
+          deliver a made-to-order, permissionless platform designed for
+          precision trading.</span
+        >
+      </p>
+      <p><span> </span></p>
+      <p>
+        <span
+          >This comes after ApeX Protocol&#39;s initial ApeX elastic Automated
+          Market Maker (eAMM) launch, where popular inverse perpetual contracts
+          were supported; automatic, fully permissionless and without the need
+          for KYC. With full spectrum asset support, ApeX Protocol was able to
+          uplift decentralized derivatives trades.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >And now going beyond that to further test the boundaries of
+          derivatives DEXs, ApeX Protocol returns with ApeX Pro where traders
+          can not only have their security and privacy preserved as one would
+          see in a DEX, but high altitude performance trades with cost and speed
+          efficiencies typically associated with CEXs.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Here are six ways ApeX Pro is changing the game and bringing traders
+          full ownership within a solid, trustless ecosystem:</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <p>
+            <strong
+              ><span
+                >Visibility on Orders for Deep Liquidity and Market Depth</span
+              ></strong
+            >
+          </p>
+          <p>&nbsp;</p>
+        </li>
+      </ul>
+      <p>
+        <span
+          >Traders are most familiar with order book interfaces and for good
+          reason — the easy visibility on active orders, asks and bids and clear
+          chart views can accurately and swiftly guide accurate trades. At the
+          same time, with its powerful matching engine, competitive pricing
+          system and deep liquidity, traders can easily create and execute their
+          best orders.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >ApeX Pro facilitates effortless and straightforward entry into the
+          decentralized sphere, so aspiring crypto traders or existing crypto
+          enthusiasts get acquainted with a DEX almost instantly, but with so
+          many more features and security guarantees.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <strong><span>Multi-Chain Support</span></strong>
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Decentralization with more choices to fit traders diverse portfolio
+          needs. More than just another DEX providing support to the Ethereum
+          network, traders can pick their preferred EVM-compatible chains to
+          make deposits on and withdrawals from. ApeX Pro also supports Ether
+          (ETH), ERC-20 and EVM-compatible chain tokens, minimizing the need for
+          multiple external conversions to get on board the platform.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <strong><span>Privacy &amp; Security Guaranteed</span></strong>
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The integration of StarkWare&#39;s Layer 2 scalability engine StarkEx
+          helps ApeX Pro offer traders trades fortified by cryptographic STARK
+          proofs, scaled on Validium. They can count on accurate transaction
+          verifications and execution of their orders anywhere, anytime. On top
+          of that, data sharing is not compulsory on ApeX Pro — no risk of
+          sensitive personal data stored on the platform and being exposed to
+          possible vulnerabilities as a result.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >This includes a trader&#39;s funds and assets. The principles of
+          decentralization compel DEXs such as ApeX Pro to never hold custody of
+          a trader&#39;s owned funds at any point in time; in the unlikely event
+          of unforeseen circumstances leading to the temporary suspension of any
+          services provided by ApeX Pro, traders can freely retrieve their funds
+          and transactions.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span>Even if they hit a snag in the process, with </span
+        ><em><span>forcedTrade</span></em
+        ><span> and </span><em><span>forcedWithdrawal</span></em
+        ><span>
+          requests, codified on the platform with the integration of
+          StarkEx&#39;s infrastructure, there are truly no obstacles between a
+          trader and their funds.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p><span>In code we trust.</span></p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <strong
+            ><span
+              >Minimal Costs, Bigger Leverage &amp; Optimal Trade Sizes</span
+            ></strong
+          >
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >It&#39;s all about cost-saving features so traders get more crypto
+          for their buck. Here&#39;s how ApeX Pro is ensuring capital efficiency
+          so traders can leave 100% of their funds to generating profit:</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <ul>
+          <li>
+            <span
+              >Bolstered by StarkEx&#39;s Layer 2 scaling capabilities, traders
+              can say goodbye to transaction gas fees</span
+            >
+          </li>
+          <li>
+            <span
+              >With up to 20x leverage, traders can enjoy a bigger upsize on
+              their perpetual contract trades and amplify earnings</span
+            >
+          </li>
+          <li>
+            <span
+              >With smaller trade sizes, creating an order is easier than ever
+              before as traders can proceed with smaller starting capital</span
+            >
+          </li>
+        </ul>
+      </ul>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <strong
+            ><span>Instant Settlement &amp; Fast Withdrawals</span></strong
+          >
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Quicker transaction and state confirmation on Layer 2 means that
+          traders have their orders, withdrawals and deposits settled without
+          prolonged delays. ApeX Pro also supports Fast Withdrawals, which
+          processes requests via a withdrawal liquidity provider so traders&#39;
+          funds arrive at their accounts without waiting in line.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <strong><span>Trade for Rewards &amp; Revenue Sharing</span></strong>
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >ApeX Pro is supported by $APEX and $BANA, the underlying tokens
+          underpinning the ApeX Pro ecosystem. Instead of paying trading fees to
+          a CEX, traders can instead share in the fees generated, and also earn
+          reward tokens for their trades. A trading ecosystem that truly
+          benefits its community.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="inheriting-a-decentralized-future" class="md-header-anchor"></a
+        ><strong><span>Inheriting a Decentralized Future</span></strong>
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >ApeX Pro takes a step forward in furthering the core tenets of
+          decentralization in accessibility, inclusivity, security and
+          efficiency. At its core, decentralization symbolizes the vesting of
+          full ownership back in the hands of the masses — and this is why ApeX
+          Pro is committed to realizing a Web3 social trading platform in time,
+          where the community creates, shares and drives trading activity
+          independently.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >It&#39;s time to experience decentralization like you&#39;ve never
+          seen before. Find out more about ApeX Pro </span
+        ><a href="https://apex.exchange/"><span>here</span></a
+        ><span>.</span>
+      </p>
+    </div>
+  </body>
+</html>
