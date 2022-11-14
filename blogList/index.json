@@ -383,5 +383,16 @@
     "desc": "DEX traders are guaranteed full ownership over their funds at all times — your assets and funds protected by decentralized, permissionless code. ",
     "createTime": "2022-11-08T00:00:00.000Z",
     "classify": ["Learn"]
+  },
+  {
+    "id": "37",
+    "sort": "37",
+    "imgLink": "/images/list/37.png",
+    "link": "",
+    "tags": ["CEX", "DEX"],
+    "title": "4 Ways to Overcome the Crypto Bear Market — Try a DEX!",
+    "desc": "Here are 4 ways you can survive the bear market, both on centralized and decentralized crypto exchanges, with either spot or derivatives trades. ",
+    "createTime": "2022-11-14T00:00:00.000Z",
+    "classify": ["Learn"]
   }
 ]
