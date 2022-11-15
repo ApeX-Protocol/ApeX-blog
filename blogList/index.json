@@ -394,5 +394,38 @@
     "desc": "Here are 4 ways you can survive the bear market, both on centralized and decentralized crypto exchanges, with either spot or derivatives trades. ",
     "createTime": "2022-11-14T00:00:00.000Z",
     "classify": ["Learn"]
+  },
+  {
+    "id": "38",
+    "sort": "38",
+    "imgLink": "/images/list/38.png",
+    "link": "",
+    "tags": ["ApeX", "Trade-to-Earn", "Rewards"],
+    "title": "Bag $BANA Rewards With Year-Long Trade-to-Earn Event!",
+    "desc": "Bringing our traders a weekly earning event — Trade-to-Earn, where you can receive ApeX Pro's reward token $BANA for the trades you make on the platform.  ",
+    "createTime": "2022-11-15T00:00:00.000Z",
+    "classify": ["New Features", "Events & Campaigns"]
+  },
+  {
+    "id": "39",
+    "sort": "39",
+    "imgLink": "/images/list/39.png",
+    "link": "",
+    "tags": ["DEX", "ApeX"],
+    "title": "How ApeX Buys & Burns $BANA With Pulsar's TWAMM Swaps ",
+    "desc": "Further enhancing liquidity provisions and guaranteeing minimal slippage with Pulsar's Time-Weighted Average Market Maker (TWAMM) protocol under a Buy & Burn Pool (BBP). ",
+    "createTime": "2022-11-15T00:00:00.000Z",
+    "classify": ["Platform Updates", "New Partnerships"]
+  },
+  {
+    "id": "40",
+    "sort": "40",
+    "imgLink": "/images/list/40.png",
+    "link": "",
+    "tags": ["DEX", "ApeX", "Order Book"],
+    "title": "Trade Bounty Raffle: Win 50 USDC Per Winner!",
+    "desc": "From Nov. 15, 2022, 2PM UTC to Nov. 22, 2022, 1:59PM UTC, we invite you to join the Trade Bounty Raffle Event. ",
+    "createTime": "2022-11-15T00:00:00.000Z",
+    "classify": ["Events & Campaigns"]
   }
 ]
