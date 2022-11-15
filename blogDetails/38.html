@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
-
+    <title>Bag BANA Rewards With Year Long Trade to Earn Event 38</title>
     <link
       href="https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext"
       rel="stylesheet"
@@ -110,6 +110,12 @@
         #write {
           padding-left: 20px;
           padding-right: 20px;
+        }
+        .CodeMirror-sizer {
+          margin-left: 0px !important;
+        }
+        .CodeMirror-gutters {
+          display: none !important;
         }
       }
       #write li > figure:last-child {
@@ -250,7 +256,6 @@
       figure > table {
         margin: 0px;
       }
-      thead,
       tr {
         break-inside: avoid;
         break-after: auto;
@@ -319,7 +324,7 @@
         background-position: inherit;
         background-repeat: inherit;
       }
-      .md-fences-adv-panel {
+      .md-diagram-panel {
         width: 100%;
         margin-top: 10px;
         text-align: center;
@@ -342,9 +347,6 @@
       }
       .CodeMirror-line,
       twitterwidget {
-        break-inside: avoid;
-      }
-      svg {
         break-inside: avoid;
       }
       .footnotes {
@@ -423,7 +425,6 @@
           margin-top: 0px;
           padding-top: 0px;
           border-color: transparent !important;
-          padding-bottom: 0px !important;
         }
         .typora-export * {
           print-color-adjust: exact;
@@ -436,9 +437,6 @@
         }
         .is-mac table {
           break-inside: avoid;
-        }
-        .typora-export-show-outline .typora-export-sidebar {
-          display: none;
         }
       }
       .footnote-line {
@@ -577,9 +575,6 @@
       .footnote-line a:not(.reversefootnote) {
         color: inherit;
       }
-      .reversefootnote {
-        font-family: ui-monospace, sans-serif;
-      }
       .md-attr {
         display: none;
       }
@@ -607,7 +602,7 @@
       }
       .md-comment {
         color: rgb(162, 127, 3);
-        opacity: 0.6;
+        opacity: 0.8;
         font-family: var(--monospace);
       }
       code {
@@ -623,6 +618,68 @@
         outline: 0px !important;
         text-shadow: initial !important;
         background-position: 0px 0px !important;
+      }
+      .md-inline-math .MathJax_SVG .noError {
+        display: none !important;
+      }
+      .html-for-mac .inline-math-svg .MathJax_SVG {
+        vertical-align: 0.2px;
+      }
+      .md-math-block .MathJax_SVG_Display {
+        text-align: center;
+        margin: 0px;
+        position: relative;
+        text-indent: 0px;
+        max-width: none;
+        max-height: none;
+        min-height: 0px;
+        min-width: 100%;
+        width: auto;
+        overflow-y: hidden;
+        display: block !important;
+      }
+      .MathJax_SVG_Display,
+      .md-inline-math .MathJax_SVG_Display {
+        width: auto;
+        margin: inherit;
+        display: inline-block !important;
+      }
+      .MathJax_SVG .MJX-monospace {
+        font-family: var(--monospace);
+      }
+      .MathJax_SVG .MJX-sans-serif {
+        font-family: sans-serif;
+      }
+      .MathJax_SVG {
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        zoom: 90%;
+        text-indent: 0px;
+        text-align: left;
+        text-transform: none;
+        letter-spacing: normal;
+        word-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        float: none;
+        direction: ltr;
+        max-width: none;
+        max-height: none;
+        min-width: 0px;
+        min-height: 0px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+      }
+      .MathJax_SVG * {
+        transition: none 0s ease 0s;
+      }
+      .MathJax_SVG_Display svg {
+        vertical-align: middle !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
       }
       .os-windows.monocolor-emoji .md-emoji {
         font-family: 'Segoe UI Symbol', sans-serif;
@@ -665,11 +722,9 @@
       mark strong {
         color: inherit;
       }
-      .md-expand mark .md-meta {
-        opacity: 0.3 !important;
-      }
       mark .md-meta {
         color: rgb(0, 0, 0);
+        opacity: 0.3 !important;
       }
       @media print {
         .typora-export h1,
@@ -690,198 +745,8 @@
       .md-diagram-panel .edgeLabel rect {
         opacity: 1 !important;
       }
-      .md-fences.md-fences-math {
-        font-size: 1em;
-      }
-      .md-fences-advanced:not(.md-focus) {
-        padding: 0px;
-        white-space: nowrap;
-        border: 0px;
-      }
-      .md-fences-advanced:not(.md-focus) {
-        background-image: inherit;
-        background-size: inherit;
-        background-attachment: inherit;
-        background-origin: inherit;
-        background-clip: inherit;
-        background-color: inherit;
-        background-position: inherit;
-        background-repeat: inherit;
-      }
-      .typora-export-show-outline .typora-export-content {
-        max-width: 1440px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-      }
-      .typora-export-sidebar {
-        width: 300px;
-        font-size: 0.8rem;
-        margin-top: 80px;
-        margin-right: 18px;
-      }
-      .typora-export-show-outline #write {
-        --webkit-flex: 2;
-        flex: 2 1 0%;
-      }
-      .typora-export-sidebar .outline-content {
-        position: fixed;
-        top: 0px;
-        max-height: 100%;
-        overflow: hidden auto;
-        padding-bottom: 30px;
-        padding-top: 60px;
-        width: 300px;
-      }
-      @media screen and (max-width: 1024px) {
-        .typora-export-sidebar,
-        .typora-export-sidebar .outline-content {
-          width: 240px;
-        }
-      }
-      @media screen and (max-width: 800px) {
-        .typora-export-sidebar {
-          display: none;
-        }
-      }
-      .outline-content li,
-      .outline-content ul {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        list-style: none;
-      }
-      .outline-content ul {
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
-      .outline-content strong {
-        font-weight: 400;
-      }
-      .outline-expander {
-        width: 1rem;
-        height: 1.428571429rem;
-        position: relative;
-        display: table-cell;
-        vertical-align: middle;
-        cursor: pointer;
-        padding-left: 4px;
-      }
-      .outline-expander::before {
-        content: '';
-        position: relative;
-        font-family: Ionicons;
-        display: inline-block;
-        font-size: 8px;
-        vertical-align: middle;
-      }
-      .outline-item {
-        padding-top: 3px;
-        padding-bottom: 3px;
-        cursor: pointer;
-      }
-      .outline-expander:hover::before {
-        content: '';
-      }
-      .outline-h1 > .outline-item {
-        padding-left: 0px;
-      }
-      .outline-h2 > .outline-item {
-        padding-left: 1em;
-      }
-      .outline-h3 > .outline-item {
-        padding-left: 2em;
-      }
-      .outline-h4 > .outline-item {
-        padding-left: 3em;
-      }
-      .outline-h5 > .outline-item {
-        padding-left: 4em;
-      }
-      .outline-h6 > .outline-item {
-        padding-left: 5em;
-      }
-      .outline-label {
-        cursor: pointer;
-        display: table-cell;
-        vertical-align: middle;
-        text-decoration: none;
-        color: inherit;
-      }
-      .outline-label:hover {
-        text-decoration: underline;
-      }
-      .outline-item:hover {
-        border-color: rgb(245, 245, 245);
-        background-color: var(--item-hover-bg-color);
-      }
-      .outline-item:hover {
-        margin-left: -28px;
-        margin-right: -28px;
-        border-left-width: 28px;
-        border-left-style: solid;
-        border-left-color: transparent;
-        border-right-width: 28px;
-        border-right-style: solid;
-        border-right-color: transparent;
-      }
-      .outline-item-single .outline-expander::before,
-      .outline-item-single .outline-expander:hover::before {
-        display: none;
-      }
-      .outline-item-open > .outline-item > .outline-expander::before {
-        content: '';
-      }
-      .outline-children {
-        display: none;
-      }
-      .info-panel-tab-wrapper {
-        display: none;
-      }
-      .outline-item-open > .outline-children {
-        display: block;
-      }
-      .typora-export .outline-item {
-        padding-top: 1px;
-        padding-bottom: 1px;
-      }
-      .typora-export .outline-item:hover {
-        margin-right: -8px;
-        border-right-width: 8px;
-        border-right-style: solid;
-        border-right-color: transparent;
-      }
-      .typora-export .outline-expander::before {
-        content: '+';
-        font-family: inherit;
-        top: -1px;
-      }
-      .typora-export .outline-expander:hover::before,
-      .typora-export
-        .outline-item-open
-        > .outline-item
-        > .outline-expander::before {
-        content: '−';
-      }
-      .typora-export-collapse-outline .outline-children {
-        display: none;
-      }
-      .typora-export-collapse-outline .outline-item-open > .outline-children,
-      .typora-export-no-collapse-outline .outline-children {
-        display: block;
-      }
-      .typora-export-no-collapse-outline .outline-expander::before {
-        content: '' !important;
-      }
-      .typora-export-show-outline
-        .outline-item-active
-        > .outline-item
-        .outline-label {
-        font-weight: 700;
-      }
-      .md-inline-math-container mjx-container {
-        zoom: 0.95;
+      .md-require-zoom-fix foreignObject {
+        font-size: var(--mermaid-font-zoom);
       }
 
       :root {
@@ -1275,127 +1140,441 @@
         );
       }
 
-      @media print {
-        @page {
-          margin: 0 0 0 0;
-        }
-        body.typora-export {
-          padding-left: 0;
-          padding-right: 0;
-        }
-        #write {
-          padding: 0;
-        }
+      :root {
+        --mermaid-font-zoom: 1em;
       }
     </style>
-    <title>
-      Increased Risk Limits, Tiered Margin Rates &amp; New Custom Preferences
-    </title>
   </head>
   <body class="typora-export">
-    <div class="typora-export-content">
-      <div id="write" class="">
-        <p><span>Dear ApeXers,</span></p>
-        <p>&nbsp;</p>
-        <p>
+    <div id="write" class="">
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/list/38.png"
+        />
+      </p>
+      <p>
+        <span
+          >ApeX Pro is thrilled to bring our traders a weekly earning event —
+          Trade-to-Earn, where you can receive ApeX Pro&#39;s reward token $BANA
+          for the trades you make on the platform.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >In case you missed it, we first teased this brand new recurring event
+          for the first time in the ApeX Pro Litepaper. As we inch closer to the
+          mainnet launch, here&#39;s the complete rundown on Trade-to-Earn, </span
+        ><strong><span>coming Nov. 21</span></strong
+        ><span
+          >, 2022, so you can grab $BANA earnings without missing a single
+          week.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <a href="https://pro.apex.exchange/t2e"
+          ><button
+            style="
+              width: 200px;
+              height: 50px;
+              background: #fed702;
+              border: none;
+              border-radius: 10px;
+              color: #000;
+            "
+          >
+            <span>Trade-to-Earn</span></button
+          ><span> </span
+        ></a>
+      </p>
+      <p>&nbsp;</p>
+      <h4>
+        <a name="why-bana-what-about-apex" class="md-header-anchor"></a
+        ><strong><span>Why $BANA? What About $APEX?</span></strong>
+      </h4>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >ApeX Pro is a non-custodial trading platform that will take your
+          decentralized perpetual contract trades to greater heights on an order
+          book model, built on the ApeX Protocol and powered by StarkWare&#39;s
+          Layer 2 scalability engine StarkEx. This comes after the initial ApeX
+          elastic Automated Market Maker (eAMM) launch earlier this year, which
+          is when we first revealed ApeX Protocol&#39;s native governance token
+          — $APEX.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >With the launch of ApeX Pro, we introduced the reward token $BANA to
+          work alongside $APEX as we explore a dynamic dual token ecosystem for
+          greater asset value stability.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span>$BANA is minted from a </span
+        ><strong
+          ><span
+            >limited supply of 25,000,000 $APEX at an initial redeem rate of
+            0.001, with 25,000,000,000 $BANA available</span
+          ></strong
+        ><span> for rewards.</span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The availability of these two tokens circulating in the wider ApeX
+          Protocol ecosystem and its many use cases will go a long way in
+          improving market liquidity of these assets. With different use cases
+          and distribution methods across both $BANA and $APEX, we&#39;re
+          leveling the playing field for all traders, seasoned and aspiring,
+          curious and experienced alike.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >For more details on how $APEX and $BANA are connected, read our </span
+        ><a
+          href="https://apexdex.medium.com/the-apex-bana-connection-e156339a1a37"
+          ><span>explainer</span></a
+        ><span>.</span>
+      </p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="how-trade-to-earn-works" class="md-header-anchor"></a
+        ><strong><span>How Trade-to-Earn Works</span></strong>
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-1.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >As the name suggests, Trade-to-Earn allows you to enjoy extra rewards
+          while you carry on your regular trading activities every week.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Trade-to-Earn is not a one-off single event, but will comprise
+          several rounds over a minimum of a single year so everyone gets a
+          chance to build their $BANA earnings — </span
+        ><strong><span>52 weeks, 52 rounds</span></strong
+        ><span> at one round per week.</span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The Trade-to-Earn page will show you everything you need, from which
+          rounds are ongoing to other important displays such as fees paid,
+          individual estimated rewards, trading milestones reached and what you
+          can do with your $BANA after claiming your rewards.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-2.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <h4>
+        <a
+          name="receive-bana-when-you-trade-per-epoch"
+          class="md-header-anchor"
+        ></a
+        ><strong><span>Receive $BANA When You Trade (Per Epoch)</span></strong>
+      </h4>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The total amount of $BANA traders can earn within a single epoch is
+          dependent on several factors, including a combination of fees, open
+          interests and the $BANA-USDC LP Token balance during a single period,
+          calculated using the Cobb-Douglas function.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >From the calculation formula below, it&#39;s evident that the more
+          traders trade and the more fees are generated, the greater the final
+          rewards will be.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-3.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Compared to a model with fixed rewards, participants no longer need
+          to worry about diminishing returns as ApeX Pro&#39;s Trade-to-Earn
+          model was designed to avoid a zero-sum game.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <h4>
+        <a
+          name="3-easy-steps-to-maximize-rewards-with-bana"
+          class="md-header-anchor"
+        ></a
+        ><strong
+          ><span>3 Easy Steps to Maximize Rewards With $BANA</span></strong
+        >
+      </h4>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>(*</span></strong
+        ><span
+          >*1) Swap:** BANA can be swapped for USDC via the BANA-USDC pool at
+          any time during these 52 weeks.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>(*</span></strong
+        ><span
+          >*2) Add Liquidity:** Add your $BANA or USDC to the $BANA-USDC Pool to
+          receive LP Tokens. LP Tokens held during an epoch will contribute to a
+          trader&#39;s Average LP Token Holdings, a critical factor that will
+          eventually decide the total amount of $BANA distributed at the end of
+          each epoch. The more LP tokens held, the more traders can receive
+          stacked total rewards in $BANA.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>(*</span></strong
+        ><span
+          >*3) Hold &amp; Redeem:** Traders who hold onto their $BANA long-term
+          can use them to redeem $APEX governance tokens pro-rata after the
+          Trade-to-Earn event period fully ends at the end of the set 52 weeks.
+          The more BANA is burnt </span
+        ><em><span>(see BBP section below)</span></em
+        ><span>, the higher the redeem rate will be.</span>
+      </p>
+      <p>&nbsp;</p>
+      <h4>
+        <a name="buy--burn-pool" class="md-header-anchor"></a
+        ><strong><span>Buy &amp; Burn Pool</span></strong>
+      </h4>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >50% of ApeX Pro transaction fees (in USDC) will be channeled towards
+          a Buy &amp; Burn Pool (BBP). The BBP will regularly proceed with $BANA
+          buybacks, executed on TWAMM (Time Weight Average Market Maker) swaps.
+          This is to ensure $BANA&#39;s price and value are maintained while
+          traders choose to use their $BANA in any of the three ways mentioned
+          above. More importantly, this ensures that traders&#39; interests are
+          protected over this long-term event, no matter what changes may occur
+          during any epoch.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >BBP’s buying activity is constant over time when measured in USDC/s,
+          also known as the Buying Rate. This will be determined before each
+          epoch begins, based on data observed in the two (2) epochs prior to
+          the current one.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-4.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The total amount of $BANA burnt will affect the final $BANA to $APEX
+          redemption rate at the end of the Trade-to-Earn event.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="trade-to-earn-in-action" class="md-header-anchor"></a
+        ><strong><span>Trade-to-Earn in Action</span></strong>
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Let&#39;s assume that ApeX Pro uses 10 $APEX worth of $BANA for Round
+          3 in Epoch 3 of the Trade-to-Earn event, equivalent to 10,000 $BANA,
+          that&#39;s made available for this epoch. Alice is a participating
+          trader, who through her trades, managed to earn 2,000 $BANA at the end
+          of the epoch.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>Swap</span></strong>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-5.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Alice can immediately swap her 2,000 $BANA for USDC. The section
+          above will show how much available $BANA any trader has and how much
+          they&#39;re worth in USDC if they proceed with the swap. Alice can
+          choose to swap all the $BANA she has, or perform a partial swap.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>Add Liquidity</span></strong>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-6.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >As seen in the image above, depending on the total amount of $BANA a
+          trader holds and the amount allocated for addition into the $BANA-USDC
+          Pool, a trader&#39;s Average LP Token Holdings will change.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-7.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >For example, Alice decides to add 2,000 $BANA and 10.377202 USDC into
+          the pool and the value of $BANA is priced at 0.005188 USDC. In this
+          case, the total amount of LP Tokens that Alice can receive would be
+          0.000143. The more LP Tokens a trader has, the more $BANA they will be
+          allocated at the end of the epoch.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>Hold and</span></strong
+        ><span> </span><strong><span>Redeem</span></strong>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-8.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/38-9.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
           <span
-            >As we move ever closer to ApeX Pro&#39;s mainnet launch date, here
-            are some improvements and new features we&#39;ve rolled out today
-            based on user feedback during our Beta launch period:</span
+            >Initial Minting Event: 25,000,000 $APEX = 25,000,000,000 $BANA (at
+            a redeem rate of 0.001)</span
           >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <strong><span>(1) Increased Risk Limits</span></strong>
-        </p>
-        <p>&nbsp;</p>
-        <p>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <span
-            >Risk limits for all available perpetual contracts on ApeX Pro have
-            been increased based on the trader&#39;s contract Position Value. It
-            will be adjusted according to this formula:</span
+            >If the BBP burns a total of 12,500,000,000 $BANA out of the
+            available 25,000,000,000 $BANA during 52 epochs, there are
+            12,500,000,000 $BANA in rewards left</span
           >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span>-</span
-          ><span> Position Value = Oracle Price * Position Size</span>
-        </p>
-        <p>&nbsp;</p>
-        <p>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <span
-            >Each contract&#39;s Position Value will be tabulated and the
-            corresponding Maintenance Margin Rate (MMR), Initial Margin Rate
-            (IMR) and Maximum Position Leverage will be provided
-            accordingly.</span
+            >The ratio of $BANA to $APEX in this situation would be 25,000,000
+            $APEX = 12,500,000,000 $BANA → Evidently, the redeem rate is now
+            0.002</span
           >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <strong><span>(2) Tiered Maintenance Margin Rates</span></strong>
-        </p>
-        <p>&nbsp;</p>
-        <p>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <span
-            >Based on the above updates and zooming in onto MMR specifically,
-            the MMR&#39;s corresponding Position Value typically directly
-            determines the liquidation price of an order. However, under
-            cross-margined perpetual contracts, when the MMR changes as a result
-            of changes in Position Value, each contract&#39;s liquidation price
-            will be affected.</span
+            >If Alice holds her 2,000 $BANA to the end of the Trade-to-Earn
+            campaign (instead of swapping), she can redeem 2000*0.002 = 4
+            $APEX</span
           >
-        </p>
-        <p>&nbsp;</p>
-        <p><span>Check out all the tiers here:</span></p>
-        <p>&nbsp;</p>
-        <p>
-          <img
-            src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/32-1.png"
-            referrerpolicy="no-referrer"
-          />
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <strong><span>(3) Custom Setting Preferences</span></strong>
-        </p>
-        <p>&nbsp;</p>
-        <p>
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Alice can trade her $APEX holdings on crypto exchanges such as Bybit
+          and Uniswap thereafter for possibly more value than the initial USDC
+          she might have received for swapping.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The swap, redeem and burn mechanism underpinning ApeX Pro&#39;s
+          massive Trade-to-Earn event is specially engineered to guarantee:
+        </span>
+      </p>
+      <ul>
+        <li>
           <span
-            >On desktop, we&#39;ve added more color and setting preferences so
-            you can customize the way ApeX Pro looks for better usability. You
-            can select:</span
+            >Biggest possible value for $BANA holders with three ways to use
+            turn their held $BANA into multiplied rewards</span
           >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span>-</span
-          ><span>
-            New or Classic Versions, with the New Version set as default</span
-          >
-        </p>
-        <p>
-          <span>-</span
-          ><span>
-            On the candlestick charts, set green to represent price increases
-            and red for price decreases, or vice versa</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <img
-            src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/32-2.png"
-            referrerpolicy="no-referrer"
-          />
-        </p>
-        <p>&nbsp;</p>
-        <p>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <span
-            >Do note that you can mix and match the available options, but your
-            desktop settings for ApeX Pro will not affect your settings on the
-            App.
-          </span>
-        </p>
-      </div>
+            >Minimal price fluctuation for $BANA with the BBP and TWAMM
+            Swaps</span
+          >
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >For a step-by-step manual on how to navigate your way through the
+          Trade-to-Earn pages, check out our </span
+        ><a
+          href="https://apex-pro.gitbook.io/apex-pro/start-here/tokens-and-allocation/trade-to-earn-event"
+          ><span>detailed guide</span></a
+        ><span> here. </span>
+      </p>
     </div>
   </body>
 </html>

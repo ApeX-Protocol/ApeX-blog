@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
-
+    <title>How ApeX Buys Burns BANA With Pulsar TWAMM Swaps 39</title>
     <link
       href="https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext"
       rel="stylesheet"
@@ -110,6 +110,12 @@
         #write {
           padding-left: 20px;
           padding-right: 20px;
+        }
+        .CodeMirror-sizer {
+          margin-left: 0px !important;
+        }
+        .CodeMirror-gutters {
+          display: none !important;
         }
       }
       #write li > figure:last-child {
@@ -250,7 +256,6 @@
       figure > table {
         margin: 0px;
       }
-      thead,
       tr {
         break-inside: avoid;
         break-after: auto;
@@ -319,7 +324,7 @@
         background-position: inherit;
         background-repeat: inherit;
       }
-      .md-fences-adv-panel {
+      .md-diagram-panel {
         width: 100%;
         margin-top: 10px;
         text-align: center;
@@ -342,9 +347,6 @@
       }
       .CodeMirror-line,
       twitterwidget {
-        break-inside: avoid;
-      }
-      svg {
         break-inside: avoid;
       }
       .footnotes {
@@ -423,7 +425,6 @@
           margin-top: 0px;
           padding-top: 0px;
           border-color: transparent !important;
-          padding-bottom: 0px !important;
         }
         .typora-export * {
           print-color-adjust: exact;
@@ -436,9 +437,6 @@
         }
         .is-mac table {
           break-inside: avoid;
-        }
-        .typora-export-show-outline .typora-export-sidebar {
-          display: none;
         }
       }
       .footnote-line {
@@ -577,9 +575,6 @@
       .footnote-line a:not(.reversefootnote) {
         color: inherit;
       }
-      .reversefootnote {
-        font-family: ui-monospace, sans-serif;
-      }
       .md-attr {
         display: none;
       }
@@ -607,7 +602,7 @@
       }
       .md-comment {
         color: rgb(162, 127, 3);
-        opacity: 0.6;
+        opacity: 0.8;
         font-family: var(--monospace);
       }
       code {
@@ -623,6 +618,68 @@
         outline: 0px !important;
         text-shadow: initial !important;
         background-position: 0px 0px !important;
+      }
+      .md-inline-math .MathJax_SVG .noError {
+        display: none !important;
+      }
+      .html-for-mac .inline-math-svg .MathJax_SVG {
+        vertical-align: 0.2px;
+      }
+      .md-math-block .MathJax_SVG_Display {
+        text-align: center;
+        margin: 0px;
+        position: relative;
+        text-indent: 0px;
+        max-width: none;
+        max-height: none;
+        min-height: 0px;
+        min-width: 100%;
+        width: auto;
+        overflow-y: hidden;
+        display: block !important;
+      }
+      .MathJax_SVG_Display,
+      .md-inline-math .MathJax_SVG_Display {
+        width: auto;
+        margin: inherit;
+        display: inline-block !important;
+      }
+      .MathJax_SVG .MJX-monospace {
+        font-family: var(--monospace);
+      }
+      .MathJax_SVG .MJX-sans-serif {
+        font-family: sans-serif;
+      }
+      .MathJax_SVG {
+        display: inline;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        zoom: 90%;
+        text-indent: 0px;
+        text-align: left;
+        text-transform: none;
+        letter-spacing: normal;
+        word-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        float: none;
+        direction: ltr;
+        max-width: none;
+        max-height: none;
+        min-width: 0px;
+        min-height: 0px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+      }
+      .MathJax_SVG * {
+        transition: none 0s ease 0s;
+      }
+      .MathJax_SVG_Display svg {
+        vertical-align: middle !important;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
       }
       .os-windows.monocolor-emoji .md-emoji {
         font-family: 'Segoe UI Symbol', sans-serif;
@@ -665,11 +722,9 @@
       mark strong {
         color: inherit;
       }
-      .md-expand mark .md-meta {
-        opacity: 0.3 !important;
-      }
       mark .md-meta {
         color: rgb(0, 0, 0);
+        opacity: 0.3 !important;
       }
       @media print {
         .typora-export h1,
@@ -690,198 +745,8 @@
       .md-diagram-panel .edgeLabel rect {
         opacity: 1 !important;
       }
-      .md-fences.md-fences-math {
-        font-size: 1em;
-      }
-      .md-fences-advanced:not(.md-focus) {
-        padding: 0px;
-        white-space: nowrap;
-        border: 0px;
-      }
-      .md-fences-advanced:not(.md-focus) {
-        background-image: inherit;
-        background-size: inherit;
-        background-attachment: inherit;
-        background-origin: inherit;
-        background-clip: inherit;
-        background-color: inherit;
-        background-position: inherit;
-        background-repeat: inherit;
-      }
-      .typora-export-show-outline .typora-export-content {
-        max-width: 1440px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-      }
-      .typora-export-sidebar {
-        width: 300px;
-        font-size: 0.8rem;
-        margin-top: 80px;
-        margin-right: 18px;
-      }
-      .typora-export-show-outline #write {
-        --webkit-flex: 2;
-        flex: 2 1 0%;
-      }
-      .typora-export-sidebar .outline-content {
-        position: fixed;
-        top: 0px;
-        max-height: 100%;
-        overflow: hidden auto;
-        padding-bottom: 30px;
-        padding-top: 60px;
-        width: 300px;
-      }
-      @media screen and (max-width: 1024px) {
-        .typora-export-sidebar,
-        .typora-export-sidebar .outline-content {
-          width: 240px;
-        }
-      }
-      @media screen and (max-width: 800px) {
-        .typora-export-sidebar {
-          display: none;
-        }
-      }
-      .outline-content li,
-      .outline-content ul {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        list-style: none;
-      }
-      .outline-content ul {
-        margin-top: 0px;
-        margin-bottom: 0px;
-      }
-      .outline-content strong {
-        font-weight: 400;
-      }
-      .outline-expander {
-        width: 1rem;
-        height: 1.428571429rem;
-        position: relative;
-        display: table-cell;
-        vertical-align: middle;
-        cursor: pointer;
-        padding-left: 4px;
-      }
-      .outline-expander::before {
-        content: '';
-        position: relative;
-        font-family: Ionicons;
-        display: inline-block;
-        font-size: 8px;
-        vertical-align: middle;
-      }
-      .outline-item {
-        padding-top: 3px;
-        padding-bottom: 3px;
-        cursor: pointer;
-      }
-      .outline-expander:hover::before {
-        content: '';
-      }
-      .outline-h1 > .outline-item {
-        padding-left: 0px;
-      }
-      .outline-h2 > .outline-item {
-        padding-left: 1em;
-      }
-      .outline-h3 > .outline-item {
-        padding-left: 2em;
-      }
-      .outline-h4 > .outline-item {
-        padding-left: 3em;
-      }
-      .outline-h5 > .outline-item {
-        padding-left: 4em;
-      }
-      .outline-h6 > .outline-item {
-        padding-left: 5em;
-      }
-      .outline-label {
-        cursor: pointer;
-        display: table-cell;
-        vertical-align: middle;
-        text-decoration: none;
-        color: inherit;
-      }
-      .outline-label:hover {
-        text-decoration: underline;
-      }
-      .outline-item:hover {
-        border-color: rgb(245, 245, 245);
-        background-color: var(--item-hover-bg-color);
-      }
-      .outline-item:hover {
-        margin-left: -28px;
-        margin-right: -28px;
-        border-left-width: 28px;
-        border-left-style: solid;
-        border-left-color: transparent;
-        border-right-width: 28px;
-        border-right-style: solid;
-        border-right-color: transparent;
-      }
-      .outline-item-single .outline-expander::before,
-      .outline-item-single .outline-expander:hover::before {
-        display: none;
-      }
-      .outline-item-open > .outline-item > .outline-expander::before {
-        content: '';
-      }
-      .outline-children {
-        display: none;
-      }
-      .info-panel-tab-wrapper {
-        display: none;
-      }
-      .outline-item-open > .outline-children {
-        display: block;
-      }
-      .typora-export .outline-item {
-        padding-top: 1px;
-        padding-bottom: 1px;
-      }
-      .typora-export .outline-item:hover {
-        margin-right: -8px;
-        border-right-width: 8px;
-        border-right-style: solid;
-        border-right-color: transparent;
-      }
-      .typora-export .outline-expander::before {
-        content: '+';
-        font-family: inherit;
-        top: -1px;
-      }
-      .typora-export .outline-expander:hover::before,
-      .typora-export
-        .outline-item-open
-        > .outline-item
-        > .outline-expander::before {
-        content: '−';
-      }
-      .typora-export-collapse-outline .outline-children {
-        display: none;
-      }
-      .typora-export-collapse-outline .outline-item-open > .outline-children,
-      .typora-export-no-collapse-outline .outline-children {
-        display: block;
-      }
-      .typora-export-no-collapse-outline .outline-expander::before {
-        content: '' !important;
-      }
-      .typora-export-show-outline
-        .outline-item-active
-        > .outline-item
-        .outline-label {
-        font-weight: 700;
-      }
-      .md-inline-math-container mjx-container {
-        zoom: 0.95;
+      .md-require-zoom-fix foreignObject {
+        font-size: var(--mermaid-font-zoom);
       }
 
       :root {
@@ -1275,127 +1140,358 @@
         );
       }
 
-      @media print {
-        @page {
-          margin: 0 0 0 0;
-        }
-        body.typora-export {
-          padding-left: 0;
-          padding-right: 0;
-        }
-        #write {
-          padding: 0;
-        }
+      :root {
+        --mermaid-font-zoom: 1em;
       }
     </style>
-    <title>
-      Increased Risk Limits, Tiered Margin Rates &amp; New Custom Preferences
-    </title>
   </head>
   <body class="typora-export">
-    <div class="typora-export-content">
-      <div id="write" class="">
-        <p><span>Dear ApeXers,</span></p>
-        <p>&nbsp;</p>
-        <p>
-          <span
-            >As we move ever closer to ApeX Pro&#39;s mainnet launch date, here
-            are some improvements and new features we&#39;ve rolled out today
-            based on user feedback during our Beta launch period:</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <strong><span>(1) Increased Risk Limits</span></strong>
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span
-            >Risk limits for all available perpetual contracts on ApeX Pro have
-            been increased based on the trader&#39;s contract Position Value. It
-            will be adjusted according to this formula:</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span>-</span
-          ><span> Position Value = Oracle Price * Position Size</span>
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span
-            >Each contract&#39;s Position Value will be tabulated and the
-            corresponding Maintenance Margin Rate (MMR), Initial Margin Rate
-            (IMR) and Maximum Position Leverage will be provided
-            accordingly.</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <strong><span>(2) Tiered Maintenance Margin Rates</span></strong>
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span
-            >Based on the above updates and zooming in onto MMR specifically,
-            the MMR&#39;s corresponding Position Value typically directly
-            determines the liquidation price of an order. However, under
-            cross-margined perpetual contracts, when the MMR changes as a result
-            of changes in Position Value, each contract&#39;s liquidation price
-            will be affected.</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <p><span>Check out all the tiers here:</span></p>
-        <p>&nbsp;</p>
-        <p>
-          <img
-            src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/32-1.png"
-            referrerpolicy="no-referrer"
-          />
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <strong><span>(3) Custom Setting Preferences</span></strong>
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span
-            >On desktop, we&#39;ve added more color and setting preferences so
-            you can customize the way ApeX Pro looks for better usability. You
-            can select:</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <span>-</span
+    <div id="write" class="">
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/list/39.png"
+        />
+      </p>
+      <p>
+        <span>At </span
+        ><a href="https://apex.exchange/"><span>ApeX Pro</span></a
+        ><span
+          >, we&#39;re more than thrilled to bring our traders the best tech
+          features, upgrades and partnerships with established teams that drive
+          improvements to existing decentralized exchange (DEX) challenges.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span>ICYMI, ApeX Pro is </span
+        ><a href="https://apexdex.medium.com/apex-pro-litepaper-850406bbf020"
+          ><span>powered by</span></a
+        ><span>
+          StarkWare&#39;s Layer 2 scalability solution StarkEx, which allows us
+          to solve inefficiencies in traditional DEXs such as low liquidity,
+          seemingly irreducible costs, delays in transaction processing and
+          insufficient security and transparency.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >There&#39;s no denying that there is still plenty of room to take the
+          nascent decentralized finance (DeFi) industry further; and
+          specifically DEXs that rely on automated market makers (AMMs).
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span>This is why we&#39;ve zoomed into further </span
+        ><strong><span>enhancing liquidity provisions</span></strong
+        ><span> and </span
+        ><strong><span>guaranteeing minimal slippage</span></strong
+        ><span> with </span
+        ><a href="https://pulsarswap.com/"><span>Pulsar</span></a
+        ><span
+          >&#39;s Time-Weighted Average Market Maker (TWAMM) protocol under a </span
+        ><a
+          href="https://apex-pro.gitbook.io/apex-pro/start-here/tokens-and-allocation/buy-and-burn-pool"
+          ><span>Buy &amp; Burn Pool</span></a
+        ><span> (BBP).</span>
+      </p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="why-we-need-twamm-on-dexs" class="md-header-anchor"></a
+        ><strong><span>Why We Need TWAMM on DEXs</span></strong>
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Most might think that DEX order efficiency begins and ends with the
+          integration of AMMs, that facilitate the instantaneous matching and
+          execution of orders without a third party intermediary overseeing the
+          process. A pricing algorithm and the funds available in a liquidity
+          pool determine the overall price of exchange between two assets, and
+          traders interact solely with the smart contract that oversees the
+          asset swap.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Theoretically, that sounds like a seamless and optimized trading
+          process as gas costs and slippage are reduced while boosting liquidity
+          for all, but while that may be true for smaller orders, all bets are
+          off the table when traders start trading big and bigger.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Some established AMM archictecture we&#39;ve seen in the space with
+          DEXs fall into a trilemma: do they ensure reduced slippage,
+          competitive prices or increased liquidity at the inevitable expense of
+          the others when it comes to large orders? When a large order (e.g.
+          $100 million worth of ETH) is made, the inflow and outflow of funds
+          from the available asset pools leads to a temporary liquidity
+          imbalance, which may lead to significant slippage in prices. Other
+          DEXs have designed their platform to guarantee low slippage in all
+          cases, but end up putting limitations on liquidity provided to
+          traders.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >On ApeX Pro, we needed a solution to better optimize large-order
+          execution in the BBP so traders can avoid unnecessary costs arising
+          from slippage or wasting time and effort manually separating and
+          batching large orders into smaller ones.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p><span>Enter TWAMM.</span></p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="how-does-twamm-work" class="md-header-anchor"></a
+        ><strong><span>How Does TWAMM Work?</span></strong>
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >If this trading acronym looks familiar, you&#39;ve probably heard of
+          Time-Weighted Average Price (TWAP), used commonly in the traditional
+          securities market to improve prices and minimize price volatility when
+          large orders are executed simultaneously.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Similar to TWAP, Pulsar&#39;s TWAMM has been designed to execute
+          large batches of buy and sell orders without significantly impacting
+          prices of the asset(s) involved in crypto DEX order swaps. Pulsar has
+          combined instant swaps with term swaps to process a large number of
+          orders that are split up into small virtual orders, then virtually
+          crossed using an innovative, embedded AMM before they are published
+          for on-chain settlement.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/39-1.png"
+          referrerpolicy="no-referrer"
+        />
+      </p>
+      <p>
+        <img
+          src="https://c1ey4wdv9g.larksuite.com/space/api/box/stream/download/asynccode/?code=M2Q0MTE4MzRlOGE5ZWM0NWIwNWM0NjAyNzBlYjExZTZfMEh1V2p3VEFZV3ZScjlzSTB3QVNEQUxQYjZxQU1jaVhfVG9rZW46Ym94dXNqUVQwWDc5N0kwNlZXV3MxZ0tZSVVkXzE2Njg0ODEyNTg6MTY2ODQ4NDg1OF9WNA"
+          referrerpolicy="no-referrer"
+          alt="img"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Breaking it down further, here&#39;s what happens to large orders
+          when submitted:</span
+        >
+      </p>
+      <ol>
+        <li>
+          <strong><span>Long-Term Order Placement:</span></strong
           ><span>
-            New or Classic Versions, with the New Version set as default</span
+            Long-term orders are sold through a fixed period of time (i.e.
+            number of blocks), rather than the common AMM, which executes orders
+            instantaneously</span
           >
-        </p>
-        <p>
-          <span>-</span
+        </li>
+        <li>
+          <strong><span>Virtual Sub-Order Splits:</span></strong
           ><span>
-            On the candlestick charts, set green to represent price increases
-            and red for price decreases, or vice versa</span
+            The TWAMM breaks long-term orders into infinitely many small </span
+          ><em><span>virtual sub-orders</span></em
+          ><span
+            >, which trade against the embedded AMM at an even rate over
+            time</span
           >
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          <img
-            src="https://raw.githubusercontent.com/ApeX-Protocol/ApeX-blog/master/images/details/32-2.png"
-            referrerpolicy="no-referrer"
-          />
-        </p>
-        <p>&nbsp;</p>
-        <p>
+        </li>
+        <li>
+          <strong><span>Trading Against Embedded AMM:</span></strong
+          ><span>
+            The execution of long-term orders in the form of small virtual
+            sub-orders will push the price of the embedded AMM away from the
+            price in other markets over time.</span
+          >
+        </li>
+        <li>
+          <strong><span>Arbitrage to Restore Market Price:</span></strong
+          ><span>
+            When embedded AMM’s price is different from prices in other markets, </span
+          ><em><span>arbitrageurs</span></em
+          ><span>
+            will trade against the embedded AMM’s price to bring it back in line
+            through instant swap or term swap, ensuring good execution for
+            long-term orders, and the earning profits.</span
+          >
+        </li>
+      </ol>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >The end result? Maximally reduced slippage combined with the lowest
+          transaction costs, so any trader can trade bigger and better on DEXs
+          without sacrificing liquidity or competitive pricing.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >All the above, packaged and integrated for a powerful engine boost to
+          process large transactions on ApeX Pro like never before.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="twamm-in-action-on-apex-pro" class="md-header-anchor"></a
+        ><strong><span>TWAMM in Action on ApeX Pro</span></strong>
+      </h3>
+      <p>&nbsp;</p>
+      <p>
+        <span>Traders will primarily see TWAMM in action with the </span
+        ><a
+          href="https://apex-pro.gitbook.io/apex-pro/start-here/tokens-and-allocation/trade-to-earn-event"
+          ><span>Trade-to-Earn event</span></a
+        ><span>
+          and BBP between ApeX Pro&#39;s reward token $BANA and the
+          platform&#39;s underlying stable asset, USDC. The BBP allows buyback,
+          swap and arbitrage on Pulsar with the $BANA-USDC pair.</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <strong><span>Trade-to-Earn:</span></strong
+          ><span>
+            $BANA earned from participation in Trade-to-Earn can be swapped for
+            USDC via the BANA-USDC Pool at any time during the 52-week long
+            event</span
+          >
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <strong><span>BBP:</span></strong
+          ><span>
+            Filled with 50% of ApeX Pro trading fees in USDC and regular $BANA
+            buybacks in bulk</span
+          >
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >In using TWAMM swaps to ensure minimal slippage and price
+          differences, traders trust that the value of $BANA they receive as
+          rewards from trading on ApeX Pro will not be significantly devalued at
+          any point while Trade-to-Earn is live.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >For example, ApeX Pro decides to proceed with the buyback of 10
+          million $BANA worth of USDC over the next week (i.e. about 50,400
+          blocks).</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong><span>Total Blocks:</span></strong
+        ><span>
+          7 * 24 * 60 * (60/12) = 50,400 where a new block is created on
+          Ethereum every 12 seconds</span
+        >
+      </p>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <p>
+            <span
+              >ApeX Pro creates a long-term order in TWAMM to sell 10 million
+              USDC over 50,400 blocks</span
+            >
+          </p>
+          <ul>
+            <li>
+              <span
+                >The cost of each block is dependent on the total fees paid per
+                epoch, for e.g., 1,000 USDC is paid in the first week, so each
+                block&#39;s buying rate will be equivalent to (1,000 * 50%)/
+                50,400 = </span
+              ><strong><span>0.009920634921 USDC</span></strong>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
           <span
-            >Do note that you can mix and match the available options, but your
-            desktop settings for ApeX Pro will not affect your settings on the
-            App.
-          </span>
-        </p>
-      </div>
+            >TWAMM will then split the long-term orders into trillions of tiny
+            sub-orders known as virtual orders </span
+          ><strong><span>→</span></strong
+          ><span>
+            TWAMM then takes turns executing the virtual orders of buying $BANA
+            against its embedded AMM</span
+          >
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <span
+            >If the BBP is buying more $BANA than is sold, the price of $BANA in
+            the embedded AMM will see a controlled increase per block</span
+          >
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <span
+            >After a week, ApeX Pro&#39;s long-term order for $BANA will expire
+            and the buyback is completed — Do note that the execution price of
+            this long-term order will also end up being the average price or
+            value of $BANA over this week</span
+          >
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >Users who hold onto $BANA for the entire 52-week long Trade-to-Earn
+          event will then get to convert their $BANA to ApeX Protocol&#39;s
+          native $APEX token pro-rata.
+        </span>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <span
+          >In case you missed it, we had Henry from the Pulsar team on the line
+          on Oct. 12, 2022, for our weekly ApeX DEX Talks. Check out the
+          recording of our fireside chat here: </span
+        ><a
+          href="https://twitter.com/OfficialApeXdex/status/1580195393966469121"
+          target="_blank"
+          class="url"
+          >https://twitter.com/OfficialApeXdex/status/1580195393966469121</a
+        >
+      </p>
+      <p>&nbsp;</p>
+      <p><span>[图片2]</span></p>
+      <p>
+        <img
+          src="https://c1ey4wdv9g.larksuite.com/space/api/box/stream/download/asynccode/?code=YmU1NmQzM2U3NDk4MmQyNzA4YzRkN2Y0Y2M4YzgyZmVfeERDVm53eU5KRE1Fcnp3QVQ3RXo2YVgzWXd0RFZVTDNfVG9rZW46Ym94dXNoNUtNeXpLbnZsSjlBZEJ3blVQamhmXzE2Njg0ODEyNTg6MTY2ODQ4NDg1OF9WNA"
+          referrerpolicy="no-referrer"
+          alt="img"
+        />
+      </p>
     </div>
   </body>
 </html>
