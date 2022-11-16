@@ -427,5 +427,16 @@
     "desc": "From Nov. 15, 2022, 2PM UTC to Nov. 22, 2022, 1:59PM UTC, we invite you to join the Trade Bounty Raffle Event. ",
     "createTime": "2022-11-15T00:00:00.000Z",
     "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "41",
+    "sort": "41",
+    "imgLink": "/images/list/41.png",
+    "link": "",
+    "tags": ["DEX", "ApeX", "Order Book"],
+    "title": "ApeX Pro TikTok Challenge",
+    "desc": "The official launch of ApeX Pro on mainnet and the ribbon cutting of our year-long Trade-to-Earn program are right around the corner, and here are more ways for you to celebrate it with us.",
+    "createTime": "2022-11-16T00:00:00.000Z",
+    "classify": ["Events & Campaigns"]
   }
 ]
