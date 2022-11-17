@@ -37,7 +37,7 @@
     "sort": "4",
     "imgLink": "/images/list/4.png",
     "link": "",
-    "tags": ["Trade-to-Earn", "Rewards"],
+    "tags": ["Trade-to-Earn", "Rewards", "ApeX"],
     "title": "The $APEX-$BANA Connection",
     "desc": "As you dive deep into ApeX Pro offerings, here’s the lowdown on the two tokens underpinning not just ApeX Pro, but also the wider ApeX Protocol ecosystem — $APEX and $BANA.",
     "createTime": "2022-09-13T00:00:00.000Z",
@@ -92,7 +92,7 @@
     "sort": "9",
     "imgLink": "/images/list/9.png",
     "link": "",
-    "tags": ["DEX", "Order Book"],
+    "tags": ["DEX", "Order Book", "ApeX"],
     "title": "ApeX Pro Litepaper",
     "desc": "Leveraging social trading allows ApeX Pro to offer all traders accelerated trading performance and deep liquidity, while preserving privacy and security in the decentralized space — based on the core belief that trades made together in the Web 3.0 world are better.",
     "createTime": "2022-08-17T00:00:00.000Z",
@@ -438,5 +438,16 @@
     "desc": "The official launch of ApeX Pro on mainnet and the ribbon cutting of our year-long Trade-to-Earn program are right around the corner, and here are more ways for you to celebrate it with us.",
     "createTime": "2022-11-16T00:00:00.000Z",
     "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "42",
+    "sort": "42",
+    "imgLink": "/images/list/42.png",
+    "link": "",
+    "tags": ["DEX", "ApeX"],
+    "title": "Accelerate Your Trading With Stork’s Decentralized Off & On-Chain Price Feeds",
+    "desc": "Check out the integration of Stork’s decentralized off and on-chain price feeds for leveraged products with a new custom asset — mark price.",
+    "createTime": "2022-11-17T00:00:00.000Z",
+    "classify": ["Platform Updates", "New Partnerships"]
   }
 ]
