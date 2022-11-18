@@ -449,5 +449,27 @@
     "desc": "Check out the integration of Stork’s decentralized off and on-chain price feeds for leveraged products with a new custom asset — mark price.",
     "createTime": "2022-11-17T00:00:00.000Z",
     "classify": ["Platform Updates", "New Partnerships"]
+  },
+  {
+    "id": "43",
+    "sort": "43",
+    "imgLink": "/images/list/43.png",
+    "link": "",
+    "tags": ["ApeX"],
+    "title": "New on ApeX Pro: ATOM-USDC Contracts!",
+    "desc": "Check out which contract has joined the ApeX Pro family!",
+    "createTime": "2022-11-18T00:00:00.000Z",
+    "classify": ["New Listings"]
+  },
+  {
+    "id": "44",
+    "sort": "44",
+    "imgLink": "/images/list/44.png",
+    "link": "",
+    "tags": ["DEX", "ApeX", "Order Book"],
+    "title": "ApeX Pro Mainnet to Launch With 1,000,000 $esAPEX Retroactive Airdrop",
+    "desc": "As ApeX Pro is fully unveiled on Nov. 21, 2022, professional traders have a chance to access the ApeX Pro Retroactive Airdrop comprising 1,000,000 $esAPEX tokens. ",
+    "createTime": "2022-11-18T00:00:00.000Z",
+    "classify": ["Events & Campaigns"]
   }
 ]
