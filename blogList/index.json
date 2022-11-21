@@ -403,7 +403,7 @@
     "tags": ["ApeX", "Trade-to-Earn", "Rewards"],
     "title": "Bag $BANA Rewards With Year-Long Trade-to-Earn Event!",
     "desc": "Bringing our traders a weekly earning event — Trade-to-Earn, where you can receive ApeX Pro's reward token $BANA for the trades you make on the platform.  ",
-    "createTime": "2022-11-15T00:00:00.000Z",
+    "createTime": "2022-11-21T00:00:00.000Z",
     "classify": ["New Features", "Events & Campaigns"]
   },
   {
@@ -471,5 +471,16 @@
     "desc": "As ApeX Pro is fully unveiled on Nov. 21, 2022, professional traders have a chance to access the ApeX Pro Retroactive Airdrop comprising 1,000,000 $esAPEX tokens. ",
     "createTime": "2022-11-18T00:00:00.000Z",
     "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "45",
+    "sort": "45",
+    "imgLink": "/images/list/45.png",
+    "link": "",
+    "tags": ["ApeX"],
+    "title": "ApeX Protocol Submits Proposal to BitDAO",
+    "desc": "We’re thrilled at the endless possibilities with this partnership, as ApeX Protocol continues to take its traders to the forefront of the DEX race. ",
+    "createTime": "2022-11-21T00:00:00.000Z",
+    "classify": ["New Partnerships"]
   }
 ]
