@@ -493,5 +493,16 @@
     "desc": "Join the Market Maker Program on ApeX Pro and receive incentives.",
     "createTime": "2022-11-22T00:00:00.000Z",
     "classify": ["Events & Campaigns"]
+  },
+  {
+    "id": "47",
+    "sort": "47",
+    "imgLink": "/images/list/47.png",
+    "link": "",
+    "tags": ["DEX", "ApeX", "Order Book"],
+    "title": "Bountiful Cyber Week With $5,000 in $esAPEX Rewards!",
+    "desc": "This Thanksgiving season, we'd like to say a big thank you to ApeXers with a $5,000 rewards pool in $esAPEX!",
+    "createTime": "2022-11-24T00:00:00.000Z",
+    "classify": ["Events & Campaigns"]
   }
 ]
