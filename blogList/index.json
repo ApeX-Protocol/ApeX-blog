@@ -515,16 +515,5 @@
     "desc": "At the core of ApeX Pro, we strive to bring our users and traders security at all times — in their trades, data and funds — because security is the most important pillar in the ApeX Pro architecture and design.",
     "createTime": "2022-11-30T00:00:00.000Z",
     "classify": ["Learn"]
-  },
-  {
-    "id": "49",
-    "sort": "49",
-    "imgLink": "/images/list/49.png",
-    "link": "",
-    "tags": ["DEX", "ApeX", "Order Book"],
-    "title": "Trade-to-Earn: Week 1 Recap",
-    "desc": "Here's a summary of what went down on Trade-to-Earn in our very first week after launch until Nov. 27, 2022.",
-    "createTime": "2022-11-30T00:00:00.000Z",
-    "classify": ["Events & Campaigns"]
   }
 ]
