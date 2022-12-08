@@ -515,5 +515,27 @@
     "desc": "At the core of ApeX Pro, we strive to bring our users and traders security at all times — in their trades, data and funds — because security is the most important pillar in the ApeX Pro architecture and design.",
     "createTime": "2022-11-30T00:00:00.000Z",
     "classify": ["Learn"]
+  },
+  {
+    "id": "51",
+    "sort": "51",
+    "imgLink": "/images/list/51.jpeg",
+    "link": "",
+    "tags": ["ApeX"],
+    "title": "ApeX Pro x Bybit — The Best of CeFi & DeFi",
+    "desc": "Announcing the Bybit x ApeX integration!",
+    "createTime": "2022-12-08T00:00:00.000Z",
+    "classify": ["New Partnerships"]
+  },
+  {
+    "id": "52",
+    "sort": "52",
+    "imgLink": "/images/list/52.png",
+    "link": "",
+    "tags": ["DEX", "ApeX", "Order Book"],
+    "title": "Season's Greetings: 50M $BANA Drop!",
+    "desc": "For new ApeX Pro users on Bybit only.",
+    "createTime": "2022-12-08T00:00:00.000Z",
+    "classify": ["Events & Campaigns"]
   }
 ]
